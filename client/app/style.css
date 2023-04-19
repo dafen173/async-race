@@ -1,0 +1,87 @@
+body {
+    padding-left: 30px;
+}
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__list {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.pagination__item {
+  padding: 8px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.pagination__item--active {
+  font-weight: 800;
+  color: gold;
+}
+
+.pagination-winners__item--active {
+  font-weight: 800;
+  color: gold;
+}
+
+.finish {
+    position: relative;
+    /* left: 800px; */
+    z-index: 2;
+    margin-left: 75%;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+button {
+    cursor: pointer;
+}
+
+#winners-page {
+    display: none;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+th:nth-child(4),
+th:nth-child(5) {
+  cursor: pointer;
+}
+
+
+
+#race-winner {
+  display: inline-block;
+  background-color: greenyellow;
+}
+
+.track {
+  display: flex;
+  /* justify-content: space-between; */
+}
