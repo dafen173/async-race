@@ -11,7 +11,7 @@ import { checkWinner } from './components/winners-page/winners-actions/checkWinn
 import { tableHandler } from './components/winners-page/winners-table/tableHandler';
 
 // export const BASE_URL = 'http://localhost:3000';
-export const BASE_URL = 'https://async-race-backend-d5kb.onrender.com/';
+export const BASE_URL = 'https://async-race-backend-d5kb.onrender.com';
 export const FINISH = window.innerWidth - 300;
 export const body = document.querySelector('body');
 
